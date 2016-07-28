@@ -34,13 +34,15 @@ $('#cta-signup-form').submit(function(e) {
     });
 
     function callbackFunctionCta(resp) {
-        if (resp.result === 'success') {
+        $('#mc-error-cta').slideUp();
+            $('#mc-success-cta').slideDown();
+        /*if (resp.result === 'success') {
             $('#mc-error-cta').slideUp();
             $('#mc-success-cta').slideDown();
         } else if (resp.result === 'error') {
             $('#mc-success-cta').slideUp();
             $('#mc-error-cta').slideDown();
-        }
+        }*/
     }
 
 
