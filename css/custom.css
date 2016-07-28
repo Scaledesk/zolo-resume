@@ -338,16 +338,10 @@
         padding: 0!important;
     }
 
-    /*.portfolio-bg{*/
-        /*background: url('../img/mobile-bg.png') no-repeat;*/
-        /*background-attachment: fixed;*/
-        /*width: 100%;*/
-        /*background-position: 50% 50%;*/
-        /*display: table;*/
-        /*-webkit-box-sizing: border-box;*/
-        /*-moz-box-sizing: border-box;*/
-        /*box-sizing: border-box;*/
-    /*}*/
+    .portfolio-bg{
+        background: none!important;
+
+    }
 
     .portfolio-bg h1{
         color: #000!important;
