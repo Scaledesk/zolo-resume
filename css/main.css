@@ -68,10 +68,9 @@ body {
 }
 
 p {
-  font-weight: 400;
   color: #848e92;
   font-size: 16px;
-  line-height: 1.6;
+  text-align: center;
 }
 
 h1,
@@ -165,7 +164,7 @@ strong { font-weight: 700; }
   font-size: 14px;
   text-align: center;
   text-decoration: none;
-  background-color: #31aff5;
+  background-color: #f4404e;
   line-height: 1.5;
   border: none;
   border-radius: 4px;
@@ -177,7 +176,7 @@ strong { font-weight: 700; }
 
 .btn:hover {
   color: #fff;
-  background-color: #30a7e9;
+  background-color: #f4404e;
 }
 
 .btn:active,
@@ -539,7 +538,7 @@ strong { font-weight: 700; }
 .copyright-terms,
 .features-cta { text-align: center; }
 
-.section-header { margin-bottom: 3em; }
+.section-header { margin-bottom: 2em; }
 
 .section-header h2 {
   font-size: 30px;
@@ -1011,8 +1010,8 @@ blockquote cite i { font-weight: 400; }
 }
 
 .btn-secondary {
-  background: transparent;
-  border: 2px solid #fff;
+  background: #101010;
+  /*border: 2px solid #fff;*/
   color: #fff;
   padding: 1.25em 2em;
 }
@@ -1063,10 +1062,10 @@ blockquote cite i { font-weight: 400; }
 }
 
 .plan-price h5 {
-  font-size: 54px;
+  font-size: 35px;
   color: #31aff5;
-  text-transform: uppercase;
-  margin: 36px 0 24px;
+  text-transform: capitalize;
+  margin-bottom:  0;
 }
 
 .plan-currency { vertical-align: 30px; }
@@ -2123,7 +2122,7 @@ h6,
 
 .cta-info .section-spacing { padding: 3.75em 3em; }
 
-.pricing .section-header { margin-bottom: 4.6875em; }
+/*.pricing .section-header { margin-bottom: 4.6875em; }*/
 
 .testimonial.section-spacing { padding: 7.5em 0; }
 
@@ -2228,7 +2227,7 @@ h6,
 
 .hero-section .cta-signup-form { margin-top: 0; }
 
-.section-spacing { padding: 6em 0; }
+.section-spacing { padding: 4em 0 1em; }
 
 .how-it-works .row:not(:last-child) { margin-bottom: 4.5em; }
 
@@ -2244,7 +2243,7 @@ h6,
   line-height: 100px;
 }
 
-.section-header { margin-bottom: 3.75em; }
+/*.section-header { margin-bottom: 3.75em; }*/
 
 .features .row-margin > .row { margin-bottom: 3em; }
 
@@ -2297,7 +2296,7 @@ h6,
   -ms-interpolation-mode: nearest-neighbor;
 }
 
-.pricing .section-header { margin-bottom: 5.4375em; }
+/*.pricing .section-header { margin-bottom: 5.4375em; }*/
 
 .testimonial.section-spacing { padding: 9.75em 0; }
 
