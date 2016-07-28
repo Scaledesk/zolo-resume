@@ -6,11 +6,30 @@ $(function() {
     /* ==========================================================================
        CTA Form   
        ========================================================================== */
-
+/*
+$('#cta-signup-form').submit(function(e) {
+  var form = $(this);
+  $.ajax({
+      type: "POST", // GET & url for json slightly different
+      url: "http://localhost/PHPMailer/MailFunction.php",
+      data: form.serialize(),
+      success : function(data) {
+          if (data == "success") {
+            alert('success');
+          } else {
+              alert('error');
+          }
+      },
+      error : function(err) { alert("Could not connect to the server.");
+                console.log(err);
+       }
+  });
+});*/
 
     $('#cta-signup-form').ajaxChimp({
         callback: callbackFunctionCta,
-        url: 'http://csmthemes.us3.list-manage.com/subscribe/post?u=9666c25a337f497687875a388&id=df84217cb4'
+        url: 'PHPMailer/MailFunction.php'
+        // url: 'http://csmthemes.us3.list-manage.com/subscribe/post?u=9666c25a337f497687875a388&id=df84217cb4'
             // http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
     });
 
