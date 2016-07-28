@@ -349,6 +349,16 @@
         /*box-sizing: border-box;*/
     /*}*/
 
+    .portfolio-bg h1{
+        color: #000!important;
+
+    }
+
+    .portfolio-bg  p{
+        color: #000!important;
+
+    }
+
 
     .section-spacing {
         padding: 2.5em 0;
