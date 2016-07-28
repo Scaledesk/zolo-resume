@@ -117,7 +117,7 @@ strong { font-weight: 700; }
    ========================================================================== */ 
    
 .hero-section {
-  background: url(../img/BG.jpg) center center no-repeat;
+  background: url(../img/bg1.png) center center no-repeat;
   background-size: cover;
   position: relative;
   image-rendering: -moz-crisp-edges;
@@ -125,6 +125,8 @@ strong { font-weight: 700; }
   image-rendering: crisp-edges;
   image-rendering: pixelated;
   -ms-interpolation-mode: nearest-neighbor;
+    height: 550px;
+
 }
 
 .hero-section::before,
@@ -140,7 +142,7 @@ strong { font-weight: 700; }
   right: 0;
 }
 
-.hero-section::before { background: rgba(17, 17, 17, 0.38); }
+.hero-section::before {     background: rgba(17, 17, 17, 0.51); }
 
 .welcome-message { padding: 9em 15px 7.5em; }
 
@@ -225,7 +227,7 @@ strong { font-weight: 700; }
 
 .hero-section .cta-signup-form {
   background: #fff;
-  padding: 3em 1.5em;
+    padding: 1.5em;
   margin-top: 3em;
 }
 
@@ -244,12 +246,12 @@ strong { font-weight: 700; }
 .hero-section .cta-form .form-group i {
   position: absolute;
   left: 16px;
-  bottom: 22px;
+  bottom: 10px;
 }
 
 .hero-section .form-control,
 .hero-section select.form-control {
-  height: 60px;
+  height: 35px;
   padding: 0 1.5em 0 2.5em;
 }
 
@@ -308,7 +310,7 @@ strong { font-weight: 700; }
 
 .affix {
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.98);
+  background-color: #f9f9f9;
   z-index: 1000;
   padding: .75em 0;
   box-shadow: 0 0 8px 0px rgba(88, 88, 88, 0.19);
@@ -703,7 +705,7 @@ strong { font-weight: 700; }
 .center-block[class^="col-"] { float: none; }
 
 .user-reviews,
-.cta-footer { background-color: #31aff5; }
+.cta-footer { background-color: #0fcbd7; }
 
 blockquote {
   padding: 0;
@@ -2221,7 +2223,7 @@ h6,
 .welcome-message h1,
 .welcome-message h2 { line-height: 1.35; }
 
-.welcome-message h1 { font-size: 44px; }
+.welcome-message h1 { font-size: 50px; }
 
 .welcome-message h2 { font-size: 22px; }
 

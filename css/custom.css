@@ -177,7 +177,11 @@
 
 
 .white-c{
-    color: #fff!important;
+     color: #fff!important;
+ }
+
+.black-c{
+    color: #000!important;
 }
 
 
@@ -225,3 +229,78 @@
     margin: 30px 0;
     font-size: 30px;
 }
+
+.p-b-0{
+    padding-bottom: 0!important;
+}
+
+.portfolio-bg{
+    background: url('../img/1.png') no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    background-position: 50% 50%;
+    display: table;
+    height: 700px;
+
+}
+
+.portfolio-bg img{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+/* ======== input fields look ======== */
+
+.zolo-input-darken::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff !important;
+}
+.zolo-input-darken:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #fff !important;
+    opacity:  1;
+}
+.zolo-input-darken::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #fff !important;
+    opacity:  1;
+}
+.zolo-input-darken:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #6b6c6d !important;
+}
+
+.zolo-textarea::-webkit-input-placeholder, .zolo-textarea { /* WebKit, Blink, Edge */
+    color:    #fff !important;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/*input.zolo-input-darken{*/
+    /*background-image: linear-gradient(#0097a7,#0097a7),linear-gradient(#6f6f6f,#6f6f6f) !important;*/
+/*}*/
+
+/*textarea.zolo-input-darken{*/
+    /*border-bottom: 1px solid #aaa !important;*/
+/*}*/
+
+/* ======== input fields look ========*/
+
+.p-t-10{
+    padding-top: 10px!important;
+}
+
+@media screen and (max-width: 768px){
+    .cta-footer .btn{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
