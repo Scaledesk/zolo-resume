@@ -241,6 +241,11 @@
     background-position: 50% 50%;
     display: table;
     height: 700px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
+
+
 
 }
 
@@ -333,9 +338,16 @@
         padding: 0!important;
     }
 
-    .portfolio-bg{
-        height: 370px!important;
-    }
+    /*.portfolio-bg{*/
+        /*background: url('../img/mobile-bg.png') no-repeat;*/
+        /*background-attachment: fixed;*/
+        /*width: 100%;*/
+        /*background-position: 50% 50%;*/
+        /*display: table;*/
+        /*-webkit-box-sizing: border-box;*/
+        /*-moz-box-sizing: border-box;*/
+        /*box-sizing: border-box;*/
+    /*}*/
 
 
     .section-spacing {
@@ -348,6 +360,10 @@
 
     .wed-btn{
         padding: 1.10em 1em!important;
+    }
+
+    .cta-footer{
+        padding: 0!important;
     }
 }
 
