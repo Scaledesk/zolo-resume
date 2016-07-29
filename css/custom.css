@@ -241,6 +241,11 @@
     background-position: 50% 50%;
     display: table;
     height: 700px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
+
+
 
 }
 
@@ -297,10 +302,83 @@
         width: 100%;
     }
 
+    .welcome-message {
+        padding: 7em 15px 7.5em !important;
+    }
+
+    .welcome-message .col-md-6{
+        padding-top: 0!important;
+    }
+
+    .welcome-message h1{
+        font-size: 26px;
+    }
+
+    .hero-section .cta-signup-form h2{
+        font-size: 17px;
+    }
+
+    .section-header h2{
+        font-size: 20px;
+    }
+
+    h1,h2,h3{
+        font-size: 20px;
+    }
+
+    .price{
+        font-size: 20px!important;
+    }
+
+    .hero-section{
+        height: 740px!important;
+    }
+
+    .navbar-default{
+        padding: 0!important;
+    }
+
+    .portfolio-bg{
+        background: none!important;
+
+    }
+
+    .portfolio-bg h1{
+        color: #000!important;
+
+    }
+
+    .portfolio-bg  p{
+        color: #000!important;
+
+    }
+
+
+    .section-spacing {
+        padding: 2.5em 0;
+    }
+
+    .copyright-terms{
+        padding: 0!important;
+    }
+
+    .wed-btn{
+        padding: 1.10em 1em!important;
+    }
+
+    .cta-footer{
+        padding: 0!important;
+    }
 }
 
 
 
-
+.mobile-footer {
+    position: fixed;
+    bottom: 0;
+    background: #f9f9f9;
+    width: 100%;
+    padding: 10px;
+}
 
 
