@@ -36,6 +36,8 @@ $('#cta-signup-form').submit(function(e) {
     function callbackFunctionCta(resp) {
         $('#mc-error-cta').slideUp();
             $('#mc-success-cta').slideDown();
+            $("#submit-form").removeAttr('disabled');
+            window.location.href = "thankyou.html";
         /*if (resp.result === 'success') {
             $('#mc-error-cta').slideUp();
             $('#mc-success-cta').slideDown();
