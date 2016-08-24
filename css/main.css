@@ -1,7 +1,7 @@
 
 /* ==========================================================================
    Style sheet for Archer - Responsive Landing Page
-   ========================================================================== 
+   ==========================================================================
 
    Version: 1.0
    Author: Pixininja
@@ -11,8 +11,8 @@
 
 /* ==========================================================================
    Table Of Content
-   ========================================================================== 
-   
+   ==========================================================================
+
     1.General
     2.Hero section
     3.Navbar
@@ -45,16 +45,16 @@
     30.Signup Page
     31.Signin Page
     32.Small devices (tablets, 768px and up)
-    33. Medium devices (desktops, 992px and up) 
-  
+    33. Medium devices (desktops, 992px and up)
+
 */
-   
-  
+
+
 
 /* ==========================================================================
    1.General
    ========================================================================== */
-   
+
 html.sl-page,
 body.sl-page { height: 100%; }
 
@@ -114,8 +114,8 @@ strong { font-weight: 700; }
 
 /* ==========================================================================
    2.Hero section
-   ========================================================================== */ 
-   
+   ========================================================================== */
+
 .hero-section {
   background: url(../img/bg1.png) center center no-repeat;
   background-size: cover;
@@ -123,7 +123,6 @@ strong { font-weight: 700; }
   image-rendering: -moz-crisp-edges;
   image-rendering: -o-crisp-edges;
   image-rendering: crisp-edges;
-  image-rendering: pixelated;
   -ms-interpolation-mode: nearest-neighbor;
     height: 550px;
 
@@ -264,7 +263,7 @@ strong { font-weight: 700; }
 /* ==========================================================================
    3.Navbar
    ========================================================================== */
-   
+
 .navbar-default {
   background-color: transparent;
   border: none;
@@ -382,7 +381,7 @@ strong { font-weight: 700; }
 /* ==========================================================================
    4.Navbar mobile
    ========================================================================== */
-   
+
 .navbar-nav .fa-2x { font-size: 1.5em; }
 
 .navbar-nav #toggle {
@@ -495,7 +494,7 @@ strong { font-weight: 700; }
 /* ==========================================================================
    5.How it works
    ========================================================================== */
-   
+
 .how-it-works .row:not(:last-child) { margin-bottom: 3em; }
 
 .step-number {
@@ -587,7 +586,7 @@ strong { font-weight: 700; }
 /* ==========================================================================
    6. Benefits cta
    ========================================================================== */
-   
+
 .benefits-cta-list > li > i {
   position: absolute;
   color: #091d25;
@@ -607,7 +606,7 @@ strong { font-weight: 700; }
 /* ==========================================================================
    7. video intro
    ========================================================================== */
-   
+
 .features,
 .cta,
 .pricing,
@@ -701,7 +700,7 @@ strong { font-weight: 700; }
 /* ==========================================================================
    8. User reviews
    ========================================================================== */
-   
+
 .center-block[class^="col-"] { float: none; }
 
 .user-reviews,
@@ -759,7 +758,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    9.Learn more
    ========================================================================== */
-   
+
 .learn-more .container > .row { padding-bottom: 3.75em; }
 
 .learn-more .container > .row:last-child {
@@ -842,7 +841,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    11.New feature
    ========================================================================== */
-   
+
 .new-feature h2 {
   margin: 0 0 24px;
   font-size: 30px;
@@ -990,7 +989,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    12.cta into
    ========================================================================== */
-   
+
 .cta-info .section-spacing {
   background: #31aff5;
   padding: 3.75em 2em;
@@ -1030,13 +1029,13 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    13.Pricing
    ========================================================================== */
-   
+
 .pricing .row > div[class^="col-"] { margin-bottom: 2.25em; }
 
 .pricing .row > div[class^="col-"]:first-child { margin-bottom: 3.9375em; }
 
 .pricing-table-container {
-  padding: 2em;
+  padding: 2em 0;
   border: 1px solid #eee;
   background-color: #fff;
   position: relative;
@@ -1144,7 +1143,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    15.FAQ
    ========================================================================== */
-   
+
 .faq-list { margin: 0 0 .75em; }
 
 .faq-list .col-sm-6 { margin-bottom: 2.25em; }
@@ -1189,7 +1188,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    16.cta signup form
    ========================================================================== */
-   
+
 .cta-dark { background: #212a3e; }
 
 .cta-dark .section-header h2 { color: #fff; }
@@ -1308,7 +1307,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
     17.clients
    ========================================================================== */
-   
+
 .trusted-clients h2 {
   font-size: 30px;
   text-align: center;
@@ -1335,7 +1334,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
   18.Product statistics
    ========================================================================== */
-   
+
 
 
 .product-statistics [class^="col-"] { margin-bottom: 2.25em; }
@@ -1369,7 +1368,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    19.Video tour
    ========================================================================== */
-   
+
 .video-tour {
   background: url(../img/bg-video-tour.jpg) center center no-repeat;
   background-size: cover;
@@ -1558,7 +1557,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    21.cta footer
    ========================================================================== */
-   
+
 .cta-footer h2 {
   font-size: 32px;
   color: #fff;
@@ -1595,7 +1594,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
     23.App download
    ========================================================================== */
-   
+
 .app-download {
   background: url(../img/bg-app.jpg) right center no-repeat;
   background-size: cover;
@@ -1635,7 +1634,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
     24.Features cta
    ========================================================================== */
-   
+
 .features-cta { overflow-x: hidden; }
 
 .feature-cta-list { margin: 48px 0 36px; }
@@ -1647,10 +1646,10 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
     25.Site footer
    ========================================================================== */
-   
-   
 
-   
+
+
+
 .site-footer > .container > .row:first-child {
   margin-bottom: 3em;
   padding-bottom: 3em;
@@ -1805,9 +1804,9 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    26.Copyright terms
    ========================================================================== */
-   
-   
-   
+
+
+
 .copyright-terms { padding: 2.25em 0; }
 
 .copyright-terms small,
@@ -1897,7 +1896,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    28.site policy modal
    ========================================================================== */
-   
+
 .site-policy .modal-content { padding: 1.5em; }
 
 .site-policy .modal-header {
@@ -1919,7 +1918,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    29.Contact form
    ========================================================================== */
-   
+
 #modal-contact-form .modal-body { padding: 3em 1em; }
 
 .contact-form .section-header { margin-bottom: 3em; }
@@ -1963,7 +1962,7 @@ blockquote cite i { font-weight: 400; }
    30.Signup Page
    ========================================================================== */
 
-   
+
 .content-wrapper {
   background: url(../img/bg-form-page.jpg) center center no-repeat;
   background-size: cover;
@@ -1971,7 +1970,6 @@ blockquote cite i { font-weight: 400; }
   image-rendering: -moz-crisp-edges;
   image-rendering: -o-crisp-edges;
   image-rendering: crisp-edges;
-  image-rendering: pixelated;
   -ms-interpolation-mode: nearest-neighbor;
   min-height: 100%;
 }
@@ -2052,7 +2050,7 @@ blockquote cite i { font-weight: 400; }
 /* ==========================================================================
    32.Small devices (tablets, 768px and up)
    ========================================================================== */
-   
+
 @media (min-width: 768px) {
 
 h1,
@@ -2210,9 +2208,9 @@ h6,
 }
 
 /* ==========================================================================
-   33. Medium devices (desktops, 992px and up) 
+   33. Medium devices (desktops, 992px and up)
    ========================================================================== */
-   
+
 @media (min-width: 992px) {
 
 .welcome-message {
