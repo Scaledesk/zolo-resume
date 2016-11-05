@@ -34,8 +34,11 @@
   <!--navigation-->
   <nav class="navbar navbar-default" data-spy="affix" data-offset-top="450">
     <div class="container">
-      <div class="navbar-header"> <a class="navbar-brand" href=""><img class="logo" alt="logo" src="img/IMAPCT-white.png" width="300"><img class="logo-nav" alt="logo-nav" src="img/IMPACT-RESUMES-02.png" width="300"></a> </div><ul class="nav navbar-nav navbar-right">
+      <div class="navbar-header"> <a class="navbar-brand" href=""><img class="logo" alt="logo" src="img/IMAPCT-white.png" width="300"><img class="logo-nav" alt="logo-nav" src="img/IMPACT-RESUMES-02.png" width="300"></a> </div>
+        
+ <!--      <ul class="nav navbar-nav navbar-right">
         <li class="hidden-xs"><a href="tel:9212083000"><span style="border: 1px solid #eee;padding: 10px; font-size: 25px;"><i class="fa fa-phone-square f-25" aria-hidden="true"></i>&nbsp;<span class="w-300 f-25 phone">+91 9212083000 </span></span>&nbsp;&nbsp;<span class="phone-e w-600 f-18 hidden-xs" style="display: block; margin-top: 15px; text-align: center">&nbsp;Talk To Our Experts</span></a></li>
+            
         <!--<li class="hidden-xs hidden-sm"><a href="#services">Services</a></li>-->
         <!--<li class="hidden-xs hidden-sm"><a href="#reviews">How it Work</a></li>-->
         <!--<li class="hidden-xs"><a href="signin.html">Sign In</a></li>-->
@@ -79,6 +82,7 @@
 
           <!--cta signup form-->
 
+<!--
           <div class="col-md-6 text-center" id="signup-form">
             <section class="cta-form cta-light ">
               <form id="cta-signup-form" class="cta-signup-form custom-form" action="PHPMailer/MailFunction.php">
@@ -110,11 +114,12 @@
 
                 <div class="form-btn">
                   <button type="submit" id="submit-form" class="btn">Request a Call Back</button>
-                  <!--<p class="form-terms">By clicking sign up you agree to our <a href="" data-toggle="modal" data-target="#modal-terms">Terms</a> and read our <a href="" data-toggle="modal" data-target="#modal-terms">Privacy Policy</a>.</p>-->
+                  <p class="form-terms">By clicking sign up you agree to our <a href="" data-toggle="modal" data-target="#modal-terms">Terms</a> and read our <a href="" data-toggle="modal" data-target="#modal-terms">Privacy Policy</a>.</p>
                 </div>
               </form>
             </section>
           </div>
+-->
 
           <!--cta signup form end-->
 
@@ -343,20 +348,6 @@
 <!--User reviews-->
 
 
-<section class="cta-footer p-t-40 p-b-40 text-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="white-c hidden-xs">Talk To Our Experts! Call &nbsp; <a href="tel:9899354633" class="black-c"> <i class="fa fa-phone"></i> 9212083000 </a></h3>
-                <p class="white-c visible-xs m-0 m-t-10">Talk To Our Experts! </p>
-                <p class="visible-xs"> <a href="tel:9212083000" class="black-c"> <i class="fa fa-phone"></i> 9212083000 </a></p>
-
-                <!--<p class="white-c"> Start Up Jobs  | Marketing Jobs  |  Sales Jobs  | Creative Jobs | Social Media Marketing Jobs | Call Centre Jobs</p>-->
-                <!--<a href="signup.html" class="btn btn-secondary">Requested a Call back</a>-->
-            </div>
-        </div>
-    </div>
-</section>
 
 
 <section>
@@ -405,7 +396,7 @@
                         <!--</ul>-->
                     </div>
                     <a href="#signup-form" class="btn">Request a Call Back </a>
-                    <p class="m-t-10">Or Call at +91 9212083000</p>
+<!--                    <p class="m-t-10">Or Call at +91 9212083000</p>-->
 
                 </div>
 
@@ -439,7 +430,7 @@
                         <!--</ul>-->
                     </div>
                     <a href="#signup-form" class="btn">Request a Call Back </a>
-                    <p class="m-t-10">Or Call at +91 9212083000</p>
+<!--                    <p class="m-t-10">Or Call at +91 9212083000</p>-->
 
                 </div>
             </div>
@@ -470,7 +461,7 @@
                         <!--</ul>-->
                     </div>
                     <a href="#signup-form" class="btn">Request a Call Back </a>
-                    <p class="m-t-10">Or Call at +91 9212083000</p>
+<!--                    <p class="m-t-10">Or Call at +91 9212083000</p>-->
 
                 </div>
             </div>
@@ -501,13 +492,63 @@
                         <!--</ul>-->
                     </div>
                     <a href="#signup-form" class="btn">Request a Call Back </a>
-                    <p class="m-t-10">Or Call at +91 9212083000</p>
+<!--                    <p class="m-t-10">Or Call at +91 9212083000</p>-->
 
                 </div>
                 <!--pricing tabel 3 end-->
 
             </div>
         </div>
+</section>
+    
+    <!-- CTA Strip -->
+    
+    <section class="cta-footer p-t-40 p-b-40 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="white-c m-b-20 ">For bulk orders kindly fill up the form : &nbsp; </h3>
+                <form class="cta-form cta-light" action="php/contact.php" method="post">
+                            <div class="row">
+                                
+                                <div class="col-md-4">
+                                    
+                        <div class="form-group">
+                                <input  type="text" name="name" class="contact-name form-control input-lg" placeholder="Name *" id="contact-name">
+                        </div>
+                                    </div>
+                                
+                         <div class="col-md-4">
+                            <div class="form-group">
+                            <input  type="text"  name="email" class="contact-email form-control input-lg" placeholder="Email address *" id="contact-email">
+                            </div>
+                             
+                                </div>
+                                
+                                 <div class="col-md-4">
+                                
+                            <div class="form-group">
+
+                                <input type="text" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Quantity" required>
+                            </div>
+                                     
+                                </div>
+                                
+<!--
+                            <div class="form-group">
+                                <input type="number" name="antispam" placeholder="Number" class="contact-antispam form-control input-lg" id="contact-antispam">
+                            </div>
+-->
+                                
+                                </div>
+                            <button type="submit" class="btn wed-btn wed-btn-white m-t-0 m-b-20">SUBMIT</button>
+                        </form>
+
+                <!--<p class="white-c"> Start Up Jobs  | Marketing Jobs  |  Sales Jobs  | Creative Jobs | Social Media Marketing Jobs | Call Centre Jobs</p>-->
+                <!--<a href="signup.html" class="btn btn-secondary">Requested a Call back</a>-->
+            </div>
+        </div>
+    </div>
 </section>
 
 
@@ -521,13 +562,13 @@
 
             <!--review 1-->
             <blockquote>
-              <figure> <img src="img/t-4.jpg" alt="user" class="img-circle"> </figure>
+              <figure> <img src="img/Sara.png" alt="user" class="img-circle"> </figure>
               <p>These guys took my poor resume and made it very impressive within no time. I was really impressed
 
                 with the results of my resume and I feel confident while applying for new jobs. I highly recommend
 
                 this service to anyone.</p>
-              <footer> <cite>Ayush, <i>Digital Marketing Manager</i></cite> </footer>
+              <footer> <cite>Sara, <i>Digital Marketing Manager</i></cite> </footer>
             </blockquote>
             <!--review 1 end-->
 
@@ -536,30 +577,18 @@
 
             <!--review 2-->
             <blockquote>
-              <figure> <img src="img/t-2.jpg" alt="user" class="img-circle"> </figure>
+              <figure> <img src="img/Mike.png" alt="user" class="img-circle"> </figure>
               <p>I did not have the time to update my resume and this service was extremely helpful and produced
 
                 what was promised. These guys did a fantastic job in completing my resume. I would highly
 
                 recommend. Thank you!</p>
-              <footer> <cite>Neha, <i>Management Traniee</i></cite> </footer>
+              <footer> <cite>Mike, <i>Management Traniee</i></cite> </footer>
             </blockquote>
             <!--review 2 end-->
 
           </div>
-          <div class="item">
-
-            <!--review 3-->
-            <blockquote>
-              <figure> <img src="img/t-3.jpg" class="img-circle"> </figure>
-              <p>You guys delivered an exceptional resume with professionalism and a fine eye for detail. I love the
-
-                  format and style of the cover letter. Highly Recommended.</p>
-              <footer> <cite>Nitin,  <i>Buiseness Development Specialist</i></cite> </footer>
-            </blockquote>
-            <!--review 3 end-->
-
-          </div>
+         
 
 
 
@@ -567,13 +596,13 @@
 
                 <!--review 4-->
                 <blockquote>
-                    <figure> <img src="img/t-6.jpg" alt="user" class="img-circle"> </figure>
+                    <figure> <img src="img/Elise.png" alt="user" class="img-circle"> </figure>
                     <p>I wanted a brilliant cover letter and resume for my next interview. The final resume was very
 
                         professional and impressive. The work was done as promised and in a timely manner. Thank you so
 
                         much!</p>
-                    <footer> <cite>Pulkit, <i>Graphic Designer and Video Editor</i></cite> </footer>
+                    <footer> <cite>Elise, <i>Graphic Designer and Video Editor</i></cite> </footer>
                 </blockquote>
                 <!--review 4 end-->
 
@@ -585,30 +614,18 @@
 
                 <!--review 5-->
                 <blockquote>
-                    <figure> <img src="img/t-5.jpg" alt="user" class="img-circle"> </figure>
+                    <figure> <img src="img/Andrew.png" alt="user" class="img-circle"> </figure>
                     <p>Thank you for the cover letter, it was more polished than what I could have written. The resume
 
                         looks good too. You illustrated my experience quite well in the profile statement, Thank you!</p>
-                    <footer> <cite>Hemant, <i>UI/UX Designer</i></cite> </footer>
+                    <footer> <cite>Andrew, <i>UI/UX Designer</i></cite> </footer>
                 </blockquote>
                 <!--review 5 end-->
 
             </div>
 
 
-            <div class="item">
-
-                <!--review 6-->
-                <blockquote>
-                    <figure> <img src="img/t-1.jpg"  class="img-circle"> </figure>
-                    <p>I wanted an excellent bio data for my match making. These guys delivered more than what I had
-
-                        expected! Thank you so much!</p>
-                    <footer> <cite>Baljeet, <i>Fresher</i></cite> </footer>
-                </blockquote>
-                <!--review 6 end-->
-
-            </div>
+            
 
 
 
@@ -817,6 +834,7 @@
 
 <!--Trusted clients-->
 
+<!--
 <section class="trusted-clients section-spacing p-t-10">
   <div class="container">
       <div class="row">
@@ -833,6 +851,7 @@
     </div>
 
 </section>
+-->
 
 <!--trusted clients end-->
 
@@ -925,7 +944,7 @@
         <h3 class="white-c">Impact Resume For Every Job Profile </h3>
           <p class="white-c"> Start Up Jobs  | Marketing Jobs  |  Sales Jobs  | Creative Jobs | Social Media Marketing Jobs | Call Centre Jobs</p>
           <p class="white-c"> Video Editor Jobs  | Research Analyst Jobs  |  UI/UX Jobs  | App Developer Jobs |   Content Writing Jobs | Finance Jobs</p>
-          <a href="#signup-form" class="btn btn-secondary">Requested a Call back</a>
+<!--          <a href="#signup-form" class="btn btn-secondary">Requested a Call back</a>-->
       </div>
     </div>
   </div>
@@ -1106,17 +1125,19 @@
 
 
 
-    <footer class="copyright-terms p-b-0 visible-xs">
+    <footer class="copyright-terms p-b-0 hidden-xs">
         <hr>
         <div class="container">
             <div class="row">
                 <div class="mobile-footer">
 
                     <div class="col-xs-12 p-0">
+<!--
                         <a href="tel:9212083000"><button type="submit" class="btn wed-btn p-l-10" style="width:80%;">
                             <i class="fa fa-phone"></i> Talk to our Experts
                         </button>
                         </a>
+-->
 
                     </div>
 
